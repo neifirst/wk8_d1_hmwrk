@@ -34,11 +34,11 @@ public class Runner {
 
         List<Spell> spellsOfMage1 = DBHelper.getSpells(mage1.getId());
 
-        Spell spell = DBHelper.getSpellById(2).get(0);
+        List<Spell> spellsOfMage2 = DBHelper.getSpells(mage2.getId());
 
-        Mage mage = DBHelper.getMageById(2).get(0);
+        Object foundObject1 = DBHelper.getObjectById("Mage", 2);
 
-
+        Object foundObject2 = DBHelper.getObjectById("Spell", 2);
 
     }
 }

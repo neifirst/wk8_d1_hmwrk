@@ -67,21 +67,6 @@ public class DBHelper {
         return spells;
     }
 
-    public static void update(Object object) {
-
-        session = HibernateUtil.getSessionFactory().openSession();
-        try {
-            transaction = session.beginTransaction();
-            session.update(object);
-            transaction.commit();
-        } catch (HibernateException e) {
-            transaction.rollback();
-            e.printStackTrace();
-        } finally {
-            session.close();
-        }
-    }
-
     public static void delete(Object object) {
 
         session = HibernateUtil.getSessionFactory().openSession();
@@ -97,16 +82,15 @@ public class DBHelper {
         }
     }
 
-
-    public static List<Spell> getSpellById(int id) {
+    public static Object getObjectById(String objectType, int id) {
         session = HibernateUtil.getSessionFactory().openSession();
-        List<Spell> spell = null;
+        List<Object> object = null;
         try {
             transaction = session.beginTransaction();
-            String hql = "FROM Spell WHERE id = :id";
+            String hql = "FROM " + objectType + " WHERE id = :id";
             Query query = session.createQuery(hql);
             query.setInteger("id", id);
-            spell = query.list();
+            object = query.list();
             transaction.commit();
 
         } catch (HibernateException e){
@@ -115,26 +99,6 @@ public class DBHelper {
         } finally {
             session.close();
         }
-        return spell;
-    }
-
-    public static List<Mage> getMageById(int id) {
-        session = HibernateUtil.getSessionFactory().openSession();
-        List<Mage> mage = null;
-        try {
-            transaction = session.beginTransaction();
-            String hql = "FROM Mage WHERE id = :id";
-            Query query = session.createQuery(hql);
-            query.setInteger("id", id);
-            mage = query.list();
-            transaction.commit();
-
-        } catch (HibernateException e){
-            transaction.rollback();
-            e.printStackTrace();
-        } finally {
-            session.close();
-        }
-        return mage;
+        return object.get(0);
     }
 }

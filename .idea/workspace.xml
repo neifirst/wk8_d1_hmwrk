@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bf9d704-b4ac-41bf-9518-45244a916889" name="Default" comment="" />
+    <list default="true" id="1bf9d704-b4ac-41bf-9518-45244a916889" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Runner.java" afterPath="$PROJECT_DIR$/src/main/java/Runner.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/DBHelper.java" afterPath="$PROJECT_DIR$/src/main/java/db/DBHelper.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="320">
+              <caret line="38" column="51" lean-forward="true" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -25,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBHelper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DBHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/db/DBHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="45" column="23" lean-forward="false" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+            <state relative-caret-position="356">
+              <caret line="138" column="5" lean-forward="false" selection-start-line="138" selection-start-column="5" selection-end-line="138" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,6 +104,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -116,8 +123,8 @@
         <option value="$PROJECT_DIR$/src/main/java/models/Mage.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mage.hbn.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spell.hbn.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/Runner.java" />
         <option value="$PROJECT_DIR$/src/main/java/db/DBHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Runner.java" />
       </list>
     </option>
   </component>
@@ -133,6 +140,7 @@
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -358,8 +366,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3349456" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15593705" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -367,7 +375,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09068924" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33857316" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -413,7 +421,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Runner.java</url>
-          <line>38</line>
+          <line>42</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -427,31 +435,6 @@
         <state relative-caret-position="162">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Mage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#819#820#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -516,20 +499,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Runner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Mage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="31">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/db/DBHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="45" column="23" lean-forward="false" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+        <state relative-caret-position="356">
+          <caret line="138" column="5" lean-forward="false" selection-start-line="138" selection-start-column="5" selection-end-line="138" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="38" column="51" lean-forward="true" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

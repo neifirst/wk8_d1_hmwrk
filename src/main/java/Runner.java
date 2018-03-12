@@ -22,17 +22,21 @@ public class Runner {
         DBHelper.save(spell2);
         System.out.println("New Spell ID: " + spell2.getId());
 
+        DBHelper.delete(spell1);
 
         spell2.setDamage(40);
         DBHelper.save(spell2);
 
-        DBHelper.delete(mage1);
 
         List<Spell> spells = DBHelper.getAll("Spell");
 
-        List<Mage> magi = DBHelper.getAll("Mage");
+        List<Mage> mages = DBHelper.getAll("Mage");
 
         List<Spell> spellsOfMage1 = DBHelper.getSpells(mage1.getId());
+
+        Spell spell = DBHelper.getSpellById(2).get(0);
+
+        Mage mage = DBHelper.getMageById(2).get(0);
 
 
 

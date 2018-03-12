@@ -1,5 +1,6 @@
 package db;
 
+import models.Mage;
 import models.Spell;
 import org.hibernate.HibernateException;
 import org.hibernate.Query;
@@ -94,5 +95,46 @@ public class DBHelper {
         } finally {
             session.close();
         }
+    }
+
+
+    public static List<Spell> getSpellById(int id) {
+        session = HibernateUtil.getSessionFactory().openSession();
+        List<Spell> spell = null;
+        try {
+            transaction = session.beginTransaction();
+            String hql = "FROM Spell WHERE id = :id";
+            Query query = session.createQuery(hql);
+            query.setInteger("id", id);
+            spell = query.list();
+            transaction.commit();
+
+        } catch (HibernateException e){
+            transaction.rollback();
+            e.printStackTrace();
+        } finally {
+            session.close();
+        }
+        return spell;
+    }
+
+    public static List<Mage> getMageById(int id) {
+        session = HibernateUtil.getSessionFactory().openSession();
+        List<Mage> mage = null;
+        try {
+            transaction = session.beginTransaction();
+            String hql = "FROM Mage WHERE id = :id";
+            Query query = session.createQuery(hql);
+            query.setInteger("id", id);
+            mage = query.list();
+            transaction.commit();
+
+        } catch (HibernateException e){
+            transaction.rollback();
+            e.printStackTrace();
+        } finally {
+            session.close();
+        }
+        return mage;
     }
 }
